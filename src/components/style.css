@@ -1,0 +1,85 @@
+.card-container {
+  width: 50%;
+  border-radius: 10px;
+}
+
+.card-container * {
+  font-family: "Fraunces", serif;
+}
+
+.img-size {
+  height: 100%;
+}
+
+@media (min-width: 401px) and (max-width: 500px) {
+  .img-size {
+    height: auto;
+    width: auto;
+    display: block;
+    max-height: 250px;
+  }
+
+  .card-container {
+    width: 80%;
+    height: 85%;
+    border-radius: 10px;
+  }
+  span {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+  .prices-card {
+    font-size: 0.5rem !important;
+  }
+
+  .paragraph-card {
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .img-size {
+    height: auto;
+    width: auto;
+    display: block;
+    max-height: 200px;
+  }
+  span {
+    font-size: 0.8rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+  .prices-card {
+    font-size: 0.5rem !important;
+  }
+
+  .card-container {
+    width: 80%;
+    height: 85%;
+    border-radius: 10px;
+  }
+  .paragraph-card {
+    font-size: 0.5rem !important;
+  }
+}
+
+b {
+  font-size: 2rem;
+  color: green;
+}
+
+.button-card {
+  width: 80%;
+  background-color: green !important;
+  color: white !important;
+  border-radius: 10px !important;
+}
+.action-card {
+  display: flex;
+  justify-content: center;
+}
