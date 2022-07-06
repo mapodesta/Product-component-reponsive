@@ -14,7 +14,7 @@ export default function CardComponent() {
   return (
     <Card className="card-container">
       <Grid container>
-        <Grid item xs={12} sm={6} md={6}>
+        <Grid item xs={12} sm={12} md={6}>
           <CardMedia
             component="img"
             image={Brand}
@@ -22,10 +22,10 @@ export default function CardComponent() {
             className="img-size"
           />
         </Grid>
-        <Grid item xs={12} sm={6} md={6} className="col-size" zeroMinWidth>
+        <Grid item xs={12} sm={12} md={6} zeroMinWidth>
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              <span>Perfume</span>
+              <span className="title-product">Perfume</span>
             </Typography>
             <Typography gutterBottom variant="h4" component="div">
               <p>
@@ -33,17 +33,12 @@ export default function CardComponent() {
                 <br /> Essence Eau De Parfum
               </p>
             </Typography>
-            <Typography
-              variant="h6"
-              color="text.secondary"
-              component="div"
-              className="paragraph-card"
-            >
+            <Typography variant="h6" color="text.secondary" component="div">
               A floral,solar and voluptuous interpretation composed by Olivier
               Polge,Permufer-creator for the house of CHANEL
             </Typography>
             <Typography gutterBottom className="prices-card">
-              <b>$149.99</b>
+              <b className="price-card">$149.99</b>
               <del style={{ fontFamily: "Arial", marginLeft: "5%" }}>
                 $169.99
               </del>
