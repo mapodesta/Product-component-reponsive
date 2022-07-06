@@ -35,6 +35,10 @@
   .card-container {
     width: 80%;
   }
+
+  .card-container * {
+    font-size: 1.2rem !important;
+  }
 }
 
 @media (max-width: 400px) {
