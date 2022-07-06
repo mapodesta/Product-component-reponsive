@@ -45,7 +45,7 @@ export default function CardComponent() {
             </Typography>
           </CardContent>
           <CardActions className="action-card">
-            <Button className="button-card" variant="container" size="large">
+            <Button className="button-card" variant="contained" size="large">
               <ShoppingCartIcon />
               Add to Cart
             </Button>
